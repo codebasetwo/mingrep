@@ -2,6 +2,7 @@ use std::env;
 use std::fs;
 use std::process;
 use std::error::Error;
+use minigrep::search;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
